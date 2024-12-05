@@ -1,2 +1,21 @@
 @import url('./base/base.css');
 @import url('./base/normalize.css');
+
+
+.grid-container > * {   
+    padding:10px;
+    text-align: center;
+}
+
+.grid-container{
+    display:grid;
+}
+
+.carteles{
+    margin:2%;
+    list-style: none;
+    display:grid;
+    grid-template-columns: repeat(3,1fr);
+    gap:40px;  
+}
+

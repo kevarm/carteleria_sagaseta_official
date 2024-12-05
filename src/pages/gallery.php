@@ -35,9 +35,41 @@ define('BASE_URL', '/Proyectos/carteleria_sagaseta_official');
     </div>
   </div>
 
-  <main>
-    Espacio para el main del gallery
-  </main>
+  <main class="grid-container">
+        <!-- Sección de carteles -->
+        <ul class="carteles">
+            <li class="cartel">
+                <img class="img" src="img/cartel2.jpg"></img>
+                <div class="cartel-data"><p>Título</p></div>
+                <button><a href="votar.html">Votar</a></button>
+            </li>
+            <li class="cartel">
+                <img class="img" src="img/cartel2.jpg"></img>
+                <div class="cartel-data"><p>Título</p></div>
+                <button><a href="votar.html">Votar</a></button>
+            </li>
+            <li class="cartel">
+                <img class="img" src="img/cartel2.jpg"></img>
+                <div class="cartel-data"><p>Título</p></div>
+                <button><a href="votar.html">Votar</a></button>
+            </li>
+            <li class="cartel">
+                <img class="img" src="img/cartel2.jpg"></img>
+                <div class="cartel-data"><p>Título</p></div>
+                <button><a href="votar.html">Votar</a></button>
+            </li>
+            <li class="cartel">
+                <img class="img" src="img/cartel2.jpg"></img>
+                <div class="cartel-data"><p>Título</p></div>
+                <button><a href="votar.html">Votar</a></button>
+            </li>
+            <li class="cartel">
+                <img class="img" src="img/cartel2.jpg"></img>
+                <div class="cartel-data"><p>Título</p></div>
+                <button><a href="votar.html">Votar</a></button>
+            </li>
+        </ul>
+    </main>
 
   <footer class="footer_container">
     <div class="nav">
